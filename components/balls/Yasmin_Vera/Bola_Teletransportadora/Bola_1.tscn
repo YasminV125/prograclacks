@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://c1jbwalilu1c1"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_opwn5"]
+load_path = "res://.godot/imported/circle.svg-7ac869d12f0c594ee46ce7e95a3999e5.ctex"
+
+[node name="Node2D" type="Node2D" unique_id=842268619]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=367776701]
+modulate = Color(0.6223177, 0.11818843, 0.8638993, 1)
+self_modulate = Color(0.6510539, 0.52552295, 0.91685075, 1)
+position = Vector2(295, 160)
+scale = Vector2(0.5, 0.5)
+texture = SubResource("CompressedTexture2D_opwn5")

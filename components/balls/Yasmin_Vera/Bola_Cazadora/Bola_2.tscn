@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bhhijfki014i6"]
+
+[ext_resource type="Texture2D" uid="uid://ekisdenueh13" path="res://assets/textures/circle.svg" id="1_tfmwt"]
+[ext_resource type="Script" uid="uid://b66hwm68un6rb" path="res://components/balls/Yasmin_Vera/Bola_Cazadora/Bola_2.gd" id="2_b0xrk"]
+
+[node name="Node2D" type="Node2D" unique_id=2022965413]
+modulate = Color(0, 0.6751839, 0.6753462, 1)
+self_modulate = Color(0, 0.6745098, 0.6745098, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1060273363]
+texture = ExtResource("1_tfmwt")
+script = ExtResource("2_b0xrk")
