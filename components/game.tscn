@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://da44v88mikwa0" path="res://components/world.gd" id="1_md670"]
 [ext_resource type="AudioStream" uid="uid://dt3h580xqvd6s" path="res://assets/audio/sword_clash.ogg" id="2_axel1"]
-[ext_resource type="PackedScene" uid="uid://vuugumo1llby" path="res://components/balls/facu_godot/bala_ball_incompleto/sword_balll.tscn" id="3_honm1"]
+[ext_resource type="PackedScene" uid="uid://dwyp56dkxydyw" path="res://components/balls/Yasmin_Vera/Bola_Teletransportadora/Bola_Mina.tscn" id="3_ss4ax"]
 [ext_resource type="FontFile" uid="uid://cy7irh352x1gb" path="res://assets/fonts/Anton-Regular.ttf" id="4_64axq"]
-[ext_resource type="PackedScene" uid="uid://npd8sm34wtvi" path="res://components/balls/facu_godot/swordsman/sword_ball.tscn" id="4_honm1"]
+[ext_resource type="PackedScene" uid="uid://dc24lpfkxuofe" path="res://components/balls/Yasmin_Vera/Bola_Cazadora/Bola_2.tscn" id="4_honm1"]
 [ext_resource type="AudioStream" uid="uid://c6gom1jmug1il" path="res://assets/audio/1-08 - Kitsch.mp3" id="5_ss4ax"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_64axq"]
@@ -107,7 +107,7 @@ process_mode = 3
 position = Vector2(256, 256)
 script = ExtResource("1_md670")
 clash_sound = NodePath("ClashSound")
-ball_1 = ExtResource("3_honm1")
+ball_1 = ExtResource("3_ss4ax")
 ball_2 = ExtResource("4_honm1")
 ball_1_info = NodePath("../../Labels/Ball1Info")
 ball_2_info = NodePath("../../Labels/Ball2Info")
@@ -139,6 +139,8 @@ shape = SubResource("WorldBoundaryShape2D_md670")
 process_mode = 3
 stream = ExtResource("2_axel1")
 volume_db = -6.0
+
+[node name="Node2D" type="Node2D" parent="VBoxContainer/BoxRect/World" unique_id=1910967800]
 
 [node name="Labels" type="HBoxContainer" parent="VBoxContainer" unique_id=723063006]
 layout_mode = 2

@@ -20,8 +20,8 @@ func _ready() -> void:
 	ball_2_instance.color = Color.CYAN
 	ball_2_instance.position = Vector2(128,0)
 	ball_2_instance.elements.rotation_degrees = 180
-	ball_1_instance.elements.rotation += randi_range(-PI,PI)
-	ball_2_instance.elements.rotation += randi_range(-PI,PI)
+	ball_1_instance.elements.rotation += randf_range(-PI,PI)
+	ball_2_instance.elements.rotation += randf_range(-PI,PI)
 
 func _process(_delta: float) -> void:
 	if ball_1_instance and ball_2_instance:
