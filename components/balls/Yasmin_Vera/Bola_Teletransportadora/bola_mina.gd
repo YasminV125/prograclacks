@@ -2,8 +2,8 @@ extends Ball
  
 # Esta es la bola que se teletransporta sola cada ciertos segundos
  
-var vida = 3  # Cuántos golpes aguanta antes de morir
-var tiempo_para_saltar = 2.0  # Cada cuántos segundos se teletransporta
+var vida = 5  # Cuántos golpes aguanta antes de morir
+var tiempo_para_saltar = 10.0  # Cada cuántos segundos se teletransporta
 var nueva_posicion = null
 
 
